@@ -17,7 +17,7 @@ const HcardBuilder = () => {
             <div className="inner-padding">
               <h4 className="heading">hCard Builder</h4>
 
-              <div className="underline col-md-10 top">
+              <div className="underline underline-width top">
                 <label className="label-color">
                   {constants.PersonalDetails}
                 </label>
@@ -82,7 +82,7 @@ const HcardBuilder = () => {
                   </div>
                 </div>
               </div>
-              <div className="underline col-md-10 top">
+              <div className="underline underline-width top">
                 <label className="label-color">{constants.Address}</label>
               </div>
               <div className="row">
