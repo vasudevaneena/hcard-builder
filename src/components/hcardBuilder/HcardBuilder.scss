@@ -1,0 +1,49 @@
+@import "../../styles/config.scss";
+.hcard-builder {
+  background-color: $color-white;
+  padding: 10px 20px 5px 16px;
+  margin-top: 5px;
+  .inner-padding {
+    padding: 20px ;
+  }
+
+  .top {
+    margin-top: 25px;
+  }
+  
+  .heading {
+    color: $color-heading;
+  }
+
+  .label-color {
+    color: $color-label;
+  }
+  input {
+    width: 155px;
+    -webkit-appearance: none;
+    line-height: 1em;
+    padding: 0.47857143em;
+    font-size: 1em;
+    background: $color-white;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 0.28571429rem;
+    box-shadow: 0 0 0 0 transparent inset;
+    transition: color 0.1s ease, border-color 0.1s ease;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    input {
+      width: 124px !important;
+      font-size: 0.8em;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    input {
+      width: 85px !important;
+      font-size: 0.8em;
+    }
+  }
+}
+.preview-top {
+  margin-top: 85px;
+}

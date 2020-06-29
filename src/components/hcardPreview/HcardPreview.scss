@@ -1,0 +1,44 @@
+@import '../../styles/config.scss';
+.previewcard {
+  background-color: $color-white; 
+  padding: 20px 20px 14px 20px;
+  @media (min-width: 768px) and (max-width: 992px) {
+    span {
+      font-size: 0.8rem;
+    }
+  }
+}
+.name {
+  background-color: #34495e;
+  height: 90px;
+  color: $color-white;
+}
+
+.title-padding {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+ .image-position {
+  padding-top: 20px;
+  width:19%;
+} 
+
+@media (min-width: 768px) and (max-width: 992px) {
+  h4 {
+    font-size: 1.4rem;
+  }
+}
+.preview-title{
+  font-size: 1rem;
+  color: $color-label;
+  @media (min-width: 768px) and (max-width: 1200px) {
+     
+      font-size: 0.8125rem;
+      color: $color-label
+    
+  }
+}
+
+  .title-width {
+    width: 75%; 
+}

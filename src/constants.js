@@ -1,0 +1,13 @@
+export const GivenName = "GIVEN NAME";
+export const Surname = "SURNAME";
+export const Email = "EMAIL";
+export const Phone = "PHONE";
+export const HouseName = "HOUSE NAME OR #";
+export const Street = "STREET";
+export const Suburb = "SUBURB";
+export const State = "STATE";
+export const Postcode = "POSTCODE";
+export const Country = "COUNTRY";
+export const PersonalDetails = "PERSONAL DETAILS";
+export const Address = "ADDRESS";
+export const HcardPreview = "HCARD PREVIEW";
