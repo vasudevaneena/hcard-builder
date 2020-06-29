@@ -45,6 +45,12 @@
       font-size: 0.8em;
     }
   }
+  @media (max-width: 768px) {
+    input {
+      width: 86%;
+     
+    }
+  }
 }
 .preview-top {
   margin-top: 85px;
