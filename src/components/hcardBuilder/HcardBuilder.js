@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect, useRef} from "react";
 
 import HcardButton from "../hcardButton/HcardButton";
 import HcardPreview from "../hcardPreview/HcardPreview";
@@ -7,6 +7,10 @@ import "./HcardBuilder.scss";
 import * as constants from "../../constants";
 
 const HcardBuilder = () => {
+  const givenNameRef = useRef(null);
+  useEffect(()=>{
+    givenNameRef.current.focus();
+  },[])
   const { inputs, handleInputChange } = hcardBuilderHook();
   return (
     <form>
@@ -34,6 +38,7 @@ const HcardBuilder = () => {
                       name="givenname"
                       onChange={handleInputChange}
                       value={inputs.givenname || ""}
+                      ref={givenNameRef}
                     ></input>
                   </div>
                 </div>
