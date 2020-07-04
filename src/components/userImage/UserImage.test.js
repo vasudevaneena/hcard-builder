@@ -1,19 +1,21 @@
 import React from "react";
 import Adapter from "enzyme-adapter-react-16";
 import { configure, mount } from "enzyme";
-import HcardBuilder from "../HcardBuilder/HcardBuilder";
+// import HcardBuilder from "../HcardBuilder/HcardBuilder";
 import UserImage from "./UserImage"
 configure({ adapter: new Adapter() });
 
 let wrapper;
 
 beforeEach(() => {
-  wrapper = mount(<HcardBuilder />);
+  wrapper = mount(<UserImage />);
 });
 
 
 describe("<ModalImage /> rendering", () => {
-  
+  it('renders correctly', () => {
+    expect(wrapper).toMatchSnapshot();
+});
     it("should render one <ModalImage>", () => {
       expect(wrapper.find("img")).toHaveLength(1);
     });
