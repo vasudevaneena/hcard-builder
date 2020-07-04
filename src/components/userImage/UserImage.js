@@ -6,7 +6,7 @@ const UserImage = (props) => {
   const { image, smallImage } = props;
  
   return (
-      <ModalImage small={smallImage} large={image} alt="Hello!" />
+      <ModalImage id="test-img" small={smallImage} large={image} alt="Hello!" />
   );
 };
 

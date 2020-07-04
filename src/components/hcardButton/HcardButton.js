@@ -1,6 +1,6 @@
 import React from "react";
 import styleWrapper from "../../HOC/stylesWrapper";
-import "./HcardButton.scss"
+//import "./HcardButton.scss"
 
 const HcardButton = (props) => {
   return (

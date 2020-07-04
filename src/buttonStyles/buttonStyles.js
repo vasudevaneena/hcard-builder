@@ -1,3 +1,4 @@
+import "./HcardButton.scss"
 const styles = {
     upload: {
       backgroundColor: "#AEB6BF",
